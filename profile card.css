@@ -1,0 +1,144 @@
+* {
+  font-family: "Poppins";
+  color: rgb(4, 1, 23);
+}
+
+.pp {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 75px;
+  border-color: rgb(106, 167, 240);
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  margin-top: 80px;
+  transition: transform 1s;
+
+}
+.pp:hover{
+  transform: scale(1.1);
+}
+
+.image {
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+  background-color: rgb(219, 219, 219);
+
+}
+
+.card {
+  width: 400px;
+  height: 90vh;
+  text-align: center;
+  background-color: rgb(106, 167, 240);
+  box-shadow: 8px 3px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.name:hover{
+  color: rgb(1, 19, 44);
+}
+
+.psammy {
+  font-size: 8px;
+  font-family: "LXGW WenKai TC";
+}
+
+.role {
+  font-size: 12px;
+  margin-top: 0px;
+  display: inline;
+}
+
+.mail,
+.call {
+  font-size: 11px;
+  transition: font-size 0.15s;
+width: 100%;
+}
+.mail:hover, .call:hover{
+  font-size: 12px;
+}
+
+.icon {
+  display: inline;
+  margin-right: 20px;
+}
+i:hover{
+color: rgb(62, 6, 116);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.brackets {
+  font-size: 8px;
+}
+
+.icons {
+  margin-top: 40px;
+}
+
+.bar {
+  height: 4px;
+  width: 210px;
+  /* background-color: rgb(1, 19, 44); */
+  border-radius: 2px;
+  text-align: center;
+  margin-left: 95px;
+}
+.html{
+  width: 105px;
+  background-color: rgb(230, 71, 3);
+  height: 4px;
+  border-radius: 2px;
+}
+.css{
+  width: 157.5px;
+  background-color: rgb(25, 72, 213);
+  height: 4px;
+  border-radius: 2px;
+}
+.cpp{
+  width: 189px;
+    background-color: rgb(76, 103, 255);
+    height: 4px;
+    border-radius: 2px;
+}
+.python{
+    width: 210.1px;
+      background-color: rgb(255, 255, 0);
+      height: 4px;
+      border-radius: 2px;
+}
+.lang-one, .lang-two, .lang-three, .lang-four{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+.const-one{
+  color:rgb(230, 71, 3);
+}
+.const-two{
+  color: rgb(25, 72, 213);
+}
+.const-three{
+  color:rgb(76, 103, 255);
+}
+.const-four{
+color: rgb(255, 255, 0);
+}
